@@ -1,0 +1,4 @@
+User-agent: Yandex
+Disallow: /
+Allow: /$
+Host: velo-servis.ru
