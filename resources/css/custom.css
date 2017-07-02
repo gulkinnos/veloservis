@@ -11,3 +11,8 @@ li.menuItem{
 li.menuItem.horizontal{
     display:inline;
 }
+h1{ 
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
