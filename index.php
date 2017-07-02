@@ -4,9 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Мастерская по ремонту велосипедов velo-servis.ru">
         <title>Мастерская по ремонту велосипедов velo-servis.ru</title>
-        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
         <link href="/resources/css/custom.css" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
         <script src="/resources/js/jquery-3.1.1.min.js"></script>
         <script src="/resources/js/bootstrap.min.js"></script>
     </head>
