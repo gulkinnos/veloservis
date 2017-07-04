@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Мастерская по ремонту велосипедов velo-servis.ru">
         <title>Мастерская по ремонту велосипедов velo-servis.ru</title>
-        <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico">
+        <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
         <link href="/resources/css/custom.css" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
