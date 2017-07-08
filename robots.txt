@@ -1,5 +1,11 @@
 User-agent: Yandex
 Disallow: /
 Allow: /$
-Allow: /sitemap.xml$
+Allow: /about.php
+Allow: /contacts.php
+Allow: /prices.php
+Allow: /results.php
+Allow: /sitemap.xml
+Allow: /favicon.ico
+sitemap: http://velo-servis.ru/sitemap.xml
 Host: velo-servis.ru
