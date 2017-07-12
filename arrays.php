@@ -57,3 +57,11 @@ $array        = array(
 $skuRowNumber = array_search('Артикул', $array);
 $stockRowNumber = array_search('Суммарные остатки', $array);
 var_dump($skuRowNumber, $stockRowNumber);
+
+foreach ($array as $key => $value) {
+    if ($value=='Артикул')
+        $key=$skuRowNumber;
+    if ($value=='Суммарные остатки')
+        $key=$stockRowNumber;
+}
+var_dump($skuRowNumber, $stockRowNumber);
