@@ -60,8 +60,8 @@ var_dump($skuRowNumber, $stockRowNumber);
 
 foreach ($array as $key => $value) {
     if ($value=='Артикул')
-        $key=$skuRowNumber;
+        $skuRowNumber=$key;
     if ($value=='Суммарные остатки')
-        $key=$stockRowNumber;
+        $stockRowNumber=$key;
 }
 var_dump($skuRowNumber, $stockRowNumber);
