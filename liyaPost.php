@@ -22,7 +22,7 @@ if (isset($_POST['file_input'])) {
     <script src="/resources/js/jquery-3.1.1.min.js"></script>
     <script src="/resources/js/bootstrap.min.js"></script>
 </head>
-<form method="post" action="devNamePost.php"> 
+<form method="post" action="liyaPost.php"> 
     <textarea name="textarea_input" cols="50" rows="10" required><?php if (isset($_POST['textarea_input'])) echo $textarea_input; ?></textarea> <br> <br> 
     <label><input name="checkbox_input" type="checkbox" value="137" <?php if (isset($_POST['checkbox_input'])) echo 'checked'; ?> >137</label> <br> <br> 
     <label><input name="radiobutton_input" type="radio" value="345" <?php if (isset($_POST['radiobutton_input']) && ($_POST['radiobutton_input']== "345")) echo 'checked'; ?>> 345 </label>
