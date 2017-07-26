@@ -1,14 +1,3 @@
-<?php
-if (isset($_GET['route'])) {
-    $route=$_GET['route'];
-    include_once $route . '.php';
-}
-else {
-    include_once 'index.php';
-}
-var_dump($_GET);
-
-?>
 <html>
     <head>
         <meta charset="utf-8">
