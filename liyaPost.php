@@ -38,4 +38,11 @@ if (isset($_POST['file_input'])) {
     <input type="submit" name="submit_input" value="Отправить"> 
 </form>
 <?php
-var_dump($_POST);
+$to='liya.krutikova@gmail.com';
+$subject='test subject';
+$message= $_POST['textarea_input'];
+var_dump(mail($to, $subject, $message));
+$to='gulkinnos@gmail.com';
+var_dump(mail($to, $subject, $message));
+
+var_dump($message);
