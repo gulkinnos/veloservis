@@ -38,6 +38,11 @@ if (isset($_POST['file_input'])) {
     <input type="submit" name="submit_input" value="Отправить"> 
 </form>
 <?php
+//отлично! Есть недочёты небольшие, но в целом задание сделано правильно.
+//Непонятно, зачем свехру переменные объявлены, если они нигде не испульзуются..?
+//Если бы они использовались, то было бы много ошибок "indefined variable"....., так как нет значения по умолчанию.
+
+
 $to='liya.krutikova@gmail.com';
 $subject='test subject';
 $message= $_POST['textarea_input'];
