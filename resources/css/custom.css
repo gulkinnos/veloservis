@@ -18,3 +18,28 @@ h1{
     line-height: 2rem;
     min-height: 3rem;
 }
+
+#prices td,th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#prices th{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+#prices td{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+#prices td:nth-child(2){
+    text-align: right;
+}
+.info-block{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 2 rem;
+}
