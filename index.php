@@ -36,7 +36,7 @@
                                     <a href="/prices.php">Стоимость услуг</a>
                                 </li>
                                 <li>
-                                    <a href="/results.php">Наши работы</a>
+                                    <a href="/results.php">Фотогалерея</a>
                                 </li>
                             </ul>
                         </div>

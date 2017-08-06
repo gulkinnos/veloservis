@@ -2,7 +2,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Телефоны и адрес velo-servis.ru">
+        <meta name="description" content="Контакты velo-servis.ru">
         <title>Контакты velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
                                     <a href="/prices.php">Стоимость услуг</a>
                                 </li>
                                 <li>
-                                    <a href="/results.php">Наши работы</a>
+                                    <a href="/results.php">Фотогалерея</a>
                                 </li>
                             </ul>
                         </div>

@@ -2,8 +2,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Завершённые работы мастерской velo-servis.ru">
-        <title>Наши работы velo-servis.ru</title>
+        <meta name="description" content="Фотогалерея мастерской velo-servis.ru">
+        <title>Фотогалерея мастерской velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
         <link href="/resources/css/custom.css?1" rel="stylesheet">
@@ -64,14 +64,14 @@
                                     <a href="/prices.php">Стоимость услуг</a>
                                 </li>
                                 <li class="active">
-                                    <a>Наши работы</a>
+                                    <a>Фотогалерея</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
-            <h1 align="center">Работы мастерской velo-servis.ru</h1>
+            <h1 align="center">Фотогалерея мастерской velo-servis.ru</h1>
             <div class="col-xs-12" id="resultsWrapper">
                 <div class="owl-carousel owl-theme results">
                     <?php
