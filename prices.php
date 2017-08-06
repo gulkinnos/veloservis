@@ -41,7 +41,7 @@
                 </div>
             </nav>
         </div>
-        <h1 align="center">Стоимость и перечень услуг мастерской</h1>
+        <h1 align="left">Стоимость и перечень услуг мастерской</h1>
         <div class="col-xs-12 info-block">
             <div>
                 <p>Лень читать и считать? Звоните!<br>
@@ -53,7 +53,7 @@
                 </p>
             </div>
         </div>
-        <table style="max-width: 70%; margin: 50px auto;" class="table table-bordered">
+        <table align="left" style="max-width: 90%; margin: 50px auto;" class="table table-bordered table-hover">
             <tbody>
                 <tr>
                     <th>Название услуги
