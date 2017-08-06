@@ -6,7 +6,7 @@
         <title>Фотогалерея мастерской velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/resources/css/custom.css?1" rel="stylesheet">
+        <link href="/resources/css/custom.css" rel="stylesheet">
         <link href="/resources/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="/resources/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
