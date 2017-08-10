@@ -6,7 +6,7 @@
         <title>Контакты velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/resources/css/custom.css" rel="stylesheet">
+        <link href="/resources/css/custom.css<?php echo '?' . date('Ymd'); ?>" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -43,21 +43,16 @@
                 </nav>
             </div>
             <h1>Контакты velo-servis.ru</h1>
-            <div class="logo col-xs-12">
-                <div class="col-xs-2"></div>
-                <div class="col-xs-1">
-                    <img src="android-chrome-192x192.png" width="64" height="64" alt="мастерская velo-servis.ru"/>
-                </div>
-                <div class="col-xs-9"></div>
+            <div class="col-xs-12">
+                <p>Уважаемые клиенты, наш сайт находится в стадии разработки.<br>
+                    Скоро здесь все наши контакты, режим работы и ссылки в социальных сетях.</p>
+                <p>Если у вас возникли вопросы, звоните по телефону <br>+7 (495) 664-35-46</p>
+                <p>Наш адрес: Москва, Школьная улица, 23<br>
+                    <a href="https://yandex.ru/maps/213/moscow/?source=wizbiz_new_map_single&text=Velo-servis.ru&ll=37.671828%2C55.745667&sll=37.671828%2C55.745667&z=17&sspn=0.016158%2C0.004805&mode=search&ol=biz&oid=156701208291&sctx=CQAAAAEAs02aainWQkCLqMIpbN9LQADg%2F%2F%2Bfi4A%2FAEAebJKuYz8AAAAABQAAAAAAAAABVgt%2BMVnMchnb1gEAAQAAgD8AAAAAAAAAAAIAAABydQ%3D%3D" target="_blank">
+                        Мы на Яндекс.Картах                
+                    </a>
+                </p>
             </div>
-            <p>Уважаемые клиенты, наш сайт находится в стадии разработки.<br>
-                Скоро здесь все наши контакты, режим работы и ссылки в социальных сетях.</p>
-            <p>Если у вас возникли вопросы, звоните по телефону <br>+7 (495) 664-35-46</p>
-            <p>Наш адрес: Москва, Школьная улица, 23<br>
-                <a href="https://yandex.ru/maps/213/moscow/?source=wizbiz_new_map_single&text=Velo-servis.ru&ll=37.671828%2C55.745667&sll=37.671828%2C55.745667&z=17&sspn=0.016158%2C0.004805&mode=search&ol=biz&oid=156701208291&sctx=CQAAAAEAs02aainWQkCLqMIpbN9LQADg%2F%2F%2Bfi4A%2FAEAebJKuYz8AAAAABQAAAAAAAAABVgt%2BMVnMchnb1gEAAQAAgD8AAAAAAAAAAAIAAABydQ%3D%3D" target="_blank">
-                    Мы на Яндекс.Картах                
-                </a>
-            </p>
         </div>
     </body>
 </html>

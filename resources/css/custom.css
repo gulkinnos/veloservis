@@ -22,5 +22,29 @@ h1{
     padding-top: 2rem;
 }
 body{
-    background-color: rgba(231, 231, 231, 0.55);
+    background: url(/resources/images/mainBackground.png?) repeat;
+}
+#prices tr:hover{
+    background-color: rgba(251, 119, 25, 0.56);
+}
+.top-menu-block.row ul li:hover{
+    background-color: rgba(251, 119, 25, 0.56);
+}
+.top-menu-block.row .navbar-default .navbar-nav>.active>a,
+.top-menu-block.row .navbar-default .navbar-nav>.active>a:focus{
+    background-color: rgba(251, 119, 25, 0.56);
+}
+.top-menu-block.row .navbar-default .navbar-nav a:hover{
+    background-color: rgba(251, 119, 25, 0.78);
+}
+.top-menu-block.row .navbar-default ul{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.info-block{
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+h1{
+    padding-left: 1.5rem;
 }

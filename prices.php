@@ -6,7 +6,7 @@
         <title>Цены velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/resources/css/custom.css" rel="stylesheet">
+        <link href="/resources/css/custom.css<?php echo '?' . date('Ymd'); ?>" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -45,6 +45,13 @@
             <h1 align="left">Стоимость и перечень услуг мастерской</h1>
             <div class="col-xs-12 info-block">
                 <div>
+                    <p>
+                        Наша мастерская оказывает полный спектр услуг по ремонту и сервисному обслуживанию велосипедов, самокатов, роликовых коньков, скейтов пенни, сноубордов и горных лыж.
+                        <br>Также, у нас всегда есть нужные запчасти!
+                        <br>.... ну, или мы быстро закажем их для Вас
+                    </p>
+                    <p>Возможно, не все услуги попали в прайс-лист, но это не значит, что мы не сможем починить Ваш транспорт. Звоните или привозите!
+                    </p>
                     <p>Лень читать и считать? Звоните!<br>
                         <b>+7 (495) 664-35-46</b></p>
                     <p>Или заезжайте: Москва, Школьная улица, 23<br>
@@ -55,7 +62,7 @@
                 </div>
             </div>
             <div class="col-xs-12">
-                <table align="left" style="max-width: 90%; margin: 50px auto;" class="table table-bordered table-hover">
+                <table id="prices" align="left" style="max-width: 90%; margin: auto auto;" class="table table-bordered">
                     <tbody>
                         <tr>
                             <th>Название услуги
@@ -653,9 +660,7 @@
                 </table>
             </div>
             <div class="col-xs-12 info-block">
-                <p>Наша мастерская оказывает полный спектр услуг по ремонту и сервисному обслуживанию велосипедов.<br>
-                    Возможно, не все услуги попали в прайс-лист, но это не значит, что мы не сможем починить Ваш велосипед!<br>
-                    Звоните нашим специалистам, если у вас остались вопросы о стоимости услуг и возможности ремонта Вашего велосипеда, по телефону <br>
+                <p>Звоните нашим специалистам, если у вас остались вопросы о стоимости услуг и возможности ремонта Вашего велосипеда, по телефону <br>
                     <b>+7 (495) 664-35-46</b></p>
                 <p>Наш адрес: Москва, Школьная улица, 23<br>
                     <a href="https://yandex.ru/maps/213/moscow/?source=wizbiz_new_map_single&text=Velo-servis.ru&ll=37.671828%2C55.745667&sll=37.671828%2C55.745667&z=17&sspn=0.016158%2C0.004805&mode=search&ol=biz&oid=156701208291&sctx=CQAAAAEAs02aainWQkCLqMIpbN9LQADg%2F%2F%2Bfi4A%2FAEAebJKuYz8AAAAABQAAAAAAAAABVgt%2BMVnMchnb1gEAAQAAgD8AAAAAAAAAAAIAAABydQ%3D%3D" target="_blank">
