@@ -48,3 +48,30 @@ body{
 h1{
     padding-left: 1.5rem;
 }
+.contacts{
+    /*font-style: italic;*/
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contacts i{
+    color: rgba(251, 119, 25, 0.78);
+}
+.bold{
+    font-weight: bold;
+}   
+.wa_icon{
+    height: 2rem;
+    width: 2rem;
+}
+.viber_icon{
+    height: 2rem;
+    width: 4rem;
+}
+.mail_ru_icon{
+    height: 2rem;
+    width: 8rem;
+}
+.vk_icon{
+    height: 2rem;
+    width: 2rem;
+}
