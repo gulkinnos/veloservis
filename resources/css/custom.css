@@ -48,10 +48,80 @@ body{
 h1{
     padding-left: 1.5rem;
 }
+.contacts{
+    /*font-style: italic;*/
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contacts i{
+    color: rgba(251, 119, 25, 0.78);
+}
+.bold{
+    font-weight: bold;
+}   
+.wa_icon{
+    height: 2rem;
+    width: 2rem;
+}
+.viber_icon{
+    height: 2rem;
+    width: 4rem;
+}
+.mail_ru_icon{
+    height: 2rem;
+    width: 8rem;
+}
+.vk_icon{
+    height: 2rem;
+    width: 2rem;
+}
+.top-menu-block{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.main-block{
+    margin-top: 4rem;
+}
 @media (max-width: 768px) {
+    .top-menu-block{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        z-index: 100;
+        height: 7rem;
+    }
+    .top-menu-block.row .navbar-default li{
+        max-width: 100%;
+        display: inline-block;
+    }
+    .top-menu-block.row .navbar-default ul{
+        text-align: center;
+    }
+    .top-menu-block.row .navbar-default li a{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
     #prices td{
         padding-top: 0.3rem;
         padding-bottom: 0.3rem;
         font-size: 1.3rem;
+    }
+}
+@media (max-width: 415px) {
+    .main-block{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 220px) {
+    .main-block{
+        margin-top: 12.5rem;
     }
 }

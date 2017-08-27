@@ -3,10 +3,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Цены velo-servis.ru">
+        <meta name="theme-color" content="#fc954c">
         <title>Цены velo-servis.ru</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/resources/css/custom.css<?php echo '?' . date('Ymd'); ?>" rel="stylesheet">
+        <link href="/resources/css/custom.css<?php echo '?' . date('YmdHi'); ?>" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -42,6 +43,8 @@
                     </div>
                 </nav>
             </div>
+        </div>
+        <div class="main-block row">
             <h1 align="left">Стоимость и перечень услуг мастерской</h1>
             <div class="col-xs-12 info-block">
                 <div>
@@ -52,7 +55,7 @@
                     </p>
                     <p>Возможно, не все услуги попали в прайс-лист, но это не значит, что мы не сможем починить Ваш транспорт. Звоните или привозите!
                     </p>
-                    <p>Лень читать и считать? Звоните!<br>
+                    <p class="bold">Лень читать и считать? Звоните!<br>
                         <b>+7 (495) 664-35-46</b></p>
                     <p>Или заезжайте: Москва, Школьная улица, 23<br>
                         <a href="https://yandex.ru/maps/213/moscow/?source=wizbiz_new_map_single&text=Velo-servis.ru&ll=37.671828%2C55.745667&sll=37.671828%2C55.745667&z=17&sspn=0.016158%2C0.004805&mode=search&ol=biz&oid=156701208291&sctx=CQAAAAEAs02aainWQkCLqMIpbN9LQADg%2F%2F%2Bfi4A%2FAEAebJKuYz8AAAAABQAAAAAAAAABVgt%2BMVnMchnb1gEAAQAAgD8AAAAAAAAAAAIAAABydQ%3D%3D" target="_blank">
