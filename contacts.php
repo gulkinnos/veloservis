@@ -3,6 +3,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Контакты velo-servis.ru">
+        <meta name="theme-color" content="#fc954c">
         <title>velo-servis.ru - Контакты</title>
         <link rel="shortcut icon" href="http://velo-servis.ru/favicon.ico" type="image/x-icon">
         <link href="/resources/css/bootstrap.min.css" rel="stylesheet">

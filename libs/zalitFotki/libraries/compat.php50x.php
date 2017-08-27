@@ -141,7 +141,7 @@ if (!function_exists('stripos')) {
 /**
  * Ported PHP5 function to PHP4 for forward compatibility
  */
-function clone($object) {
+/*function clone($object) {
       return $object;
-}
+}*/
 ?>
