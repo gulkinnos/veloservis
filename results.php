@@ -71,6 +71,8 @@
                     </div>
                 </nav>
             </div>
+        </div>
+        <div class="main-block row">
             <h1 align="center">Фотогалерея мастерской velo-servis.ru</h1>
             <div class="col-xs-12" id="resultsWrapper">
                 <div class="owl-carousel owl-theme results">
@@ -78,8 +80,8 @@
                     $pictures = glob($_SERVER['DOCUMENT_ROOT'] . '/resources/images/results/*.jpg');
                     foreach ($pictures as $picture) {
                         ?><div class="pic"><img src="resources/images/results/<?php echo basename($picture); ?>" title="<?php echo basename($picture); ?>" alt="<?php echo basename($picture); ?>"></div><?php
-                        }
-                        ?>
+                    }
+                    ?>
                 </div>
                 <p class="bold">Если у вас возникли вопросы, звоните по телефону <br>+7 (495) 664-35-46</p>
                 <p>Наш адрес: Москва, Школьная улица, 23<br>
@@ -88,5 +90,6 @@
                     </a>
                 </p>
             </div>
+        </div>
     </body>
 </html>

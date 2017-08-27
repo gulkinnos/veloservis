@@ -43,6 +43,8 @@
                     </div>
                 </nav>
             </div>
+        </div>
+        <div class="main-block row">
             <h1>О мастерской velo-servis.ru</h1>
             <div class="col-xs-12">
                 <p>Мастерская velo-servis.ru оказывает полный спектр услуг по профессиональный ремонту спорт инвентаря.</p>

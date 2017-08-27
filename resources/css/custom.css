@@ -75,3 +75,53 @@ h1{
     height: 2rem;
     width: 2rem;
 }
+.top-menu-block{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.main-block{
+    margin-top: 4rem;
+}
+@media (max-width: 768px) {
+    .top-menu-block{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        z-index: 100;
+        height: 7rem;
+    }
+    .top-menu-block.row .navbar-default li{
+        max-width: 100%;
+        display: inline-block;
+    }
+    .top-menu-block.row .navbar-default ul{
+        text-align: center;
+    }
+    .top-menu-block.row .navbar-default li a{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    #prices td{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 415px) {
+    .main-block{
+        margin-top: 7rem;
+    }
+}
+@media (max-width: 220px) {
+    .main-block{
+        margin-top: 12.5rem;
+    }
+}

@@ -42,6 +42,8 @@
                     </div>
                 </nav>
             </div>
+        </div>
+        <div class="main-block row">
             <h1 align="left">Стоимость и перечень услуг мастерской</h1>
             <div class="col-xs-12 info-block">
                 <div>
